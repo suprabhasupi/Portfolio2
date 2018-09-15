@@ -1116,7 +1116,7 @@ li.selected .cd-project-title,
 .cd-projects-container.project-open .scroll {
   visibility: visible;
   color: black;
-  top:45em;
+  bottom: 10%;
   -webkit-transform: translateX(-50%) scale(1);
   -moz-transform: translateX(-50%) scale(1);
   -ms-transform: translateX(-50%) scale(1);
@@ -1555,6 +1555,7 @@ a:hover {
   transition: background 0.2s;
   padding-left: 5px;
   padding-right: 5px;
+  padding-bottom: 5px;
 }
 
 /* the icon with pseudo class for icon font */
@@ -2207,7 +2208,7 @@ body{
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
 .cd-projects-container.project-open .scroll{
-  top:37em;
+  bottom : 20%;
 }
 }
 /*under media query write this */
